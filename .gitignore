@@ -1,4 +1,4 @@
-home/jigglypuff/.ssh/authorized_keys
-home/jigglypuff/.ssh/ssh_host_ed25519_key
-home/jigglypuff/.ssh/ssh_host_ed25519_key.pub
-home/jigglypuff/.ssh/known_hosts
+opt/sshd/authorized_keys
+opt/sshd/ssh_host_ed25519_key
+opt/sshd/ssh_host_ed25519_key.pub
+opt/sshd/known_hosts

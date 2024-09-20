@@ -15,4 +15,4 @@ EXPOSE 62222
 
 WORKDIR /home/jigglypuff
 
-CMD ["/usr/sbin/sshd", "-D", "-e", "-f","/home/jigglypuff/.ssh/sshd_config"]
+CMD ["/usr/sbin/sshd", "-D", "-e", "-f","/opt/sshd/sshd_config"]
