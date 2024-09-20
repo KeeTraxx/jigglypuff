@@ -9,8 +9,6 @@ RUN apk update && \
 
 RUN adduser -D -u 1001 -h /home/jigglypuff jigglypuff
 
-USER 1001
-
 EXPOSE 62222
 
 WORKDIR /home/jigglypuff
