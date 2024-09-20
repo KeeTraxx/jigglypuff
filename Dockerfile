@@ -7,8 +7,8 @@ RUN apk update && \
     rsync \
     python3
 
-RUN adduser -D -u 1001 -h /home/jigglypuff jigglypuff
-USER 1001
+RUN adduser -D -u 1001410000 -h /home/jigglypuff jigglypuff
+USER 1001410000
 
 RUN mkdir /home/jigglypuff/.ssh
 RUN echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDXCjfYChH6XWJSXR5xo6Qrm/GptBjfGSarUsjEofU67kt@archlinux" > /home/jigglypuff/.ssh/authorized_keys
